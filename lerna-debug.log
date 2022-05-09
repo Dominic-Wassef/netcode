@@ -1,0 +1,12 @@
+0 silly argv {
+0 silly argv   _: [ 'add' ],
+0 silly argv   scope: 'local-api',
+0 silly argv   globs: [],
+0 silly argv   lernaVersion: '3.22.1',
+0 silly argv   '$0': '/usr/local/bin/lerna',
+0 silly argv   pkg: 'local-client'
+0 silly argv }
+1 notice cli v3.22.1
+2 verbose rootPath /Users/sg/workspace/jbook/prod/jbook
+3 error Error: 404 Not Found - GET https://registry.npmjs.org/local-client - Not found
+3 error     at /usr/local/lib/node_modules/lerna/node_modules/@evocateur/npm-registry-fetch/check-response.js:104:15
