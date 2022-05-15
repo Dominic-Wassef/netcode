@@ -57,10 +57,10 @@ exports.serveCommand = new commander_1.Command()
                 case 0:
                     _a.trys.push([0, 2, , 3]);
                     dir = path_1.default.join(process.cwd(), path_1.default.dirname(filename));
-                    return [4 /*yield*/, (0, local_api_1.serve)(parseInt(options.port), path_1.default.basename(filename), dir, !isProduction)];
+                    return [4 /*yield*/, local_api_1.serve(parseInt(options.port), path_1.default.basename(filename), dir, !isProduction)];
                 case 1:
                     _a.sent();
-                    console.log("Opened ".concat(filename, ". Navigate to http://localhost:").concat(options.port, " to edit the file."));
+                    console.log("Opened " + filename + ". Navigate to http://localhost:" + options.port + " to edit the file.");
                     return [3 /*break*/, 3];
                 case 2:
                     err_1 = _a.sent();
