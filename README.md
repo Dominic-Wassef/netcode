@@ -1,5 +1,12 @@
 # NetCode
 ## The interactive browser-based coding environment.
+
+### To start the application you will:
+1. install lerna
+2. npm install the root 
+3. npm install the cli, local-api, local-client
+
+
 ## Built on top of React
 # Getting Started with Create React App
 
